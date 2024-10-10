@@ -15,18 +15,23 @@ The dataset is taken from kaggle. It contains features like Gender, Marital stat
 Below are the observations which we have made from the data visualization done as part of the Data Understanding process.
 
   > For Age feature, we observed that the maximum purchase was done by consumers who belong to age group 26-35.
+
   > About 75% of the number of purchase is done by Male and the rest of the 25% is done by Female. From which we understand that Male consumers are the major contributor to the number of sales.
+
   > The city B is majorly responsible for the overall sales income, but when it comes to above product, it majorly purchased in the city C.
 
 **Data Preparation**
 
   > Filled missing values in the Product_Category_2 and Product_Category_3.
+
   > Used LabelEncoder for encoding the categorical columns like Gender and City.
+
   > Applied random.randint to assign age randomly.
 
 **Modeling Phase**
 
   > Splitted dataset into random train and test subset ratio 80:20.
+
   > Implemented multiple supervised models such as Decision Tree Regressor, Gradient Boosting Regressor.
 
 **Conclusion**
